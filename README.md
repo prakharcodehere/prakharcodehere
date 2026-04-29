@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
                                                                                                                                                    
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Pr
   akhar%20Dubey&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=40&desc=📱%20React%20Native%20Developer%20•%20Mobile%20Craftsman%20•%20App
@@ -138,12 +138,3 @@
   </div>                                                                                                                                           
                             
   ---
-     
-  <div align="center">
-                      
-  ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-                                                                                        
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer"/>     
-   
-  </div>                                                                                                                                           
-                        
