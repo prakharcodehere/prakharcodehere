@@ -1,0 +1,57 @@
+<svg width="100%" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">                           
+                                                                                                                                                   
+    <!-- Pinterest background directly via URL -->                                                                                                 
+    <image                                                                                                                                         
+      href="https://i.pinimg.com/originals/39/2c/f4/392cf408ba0887f854a028a252428fcb.jpg"                                                          
+      x="0" y="0" width="900" height="280"                                                                                                         
+      preserveAspectRatio="xMidYMid slice"/>                                                                                                       
+   
+    <!-- Dark overlay so text pops -->                                                                                                             
+    <rect width="900" height="280" fill="rgba(0,0,0,0.55)"/>
+                                                                                                                                                   
+    <!-- Left accent bar -->                                                                                                                       
+    <rect x="0" y="0" width="5" height="280" fill="#a78bfa"/>
+                                                                                                                                                   
+    <!-- Name -->                                                                                                                                  
+    <text x="450" y="115"
+          text-anchor="middle"                                                                                                                     
+          font-family="'Segoe UI', Arial, sans-serif"
+          font-weight="900"                                                                                                                        
+          font-size="70"
+          letter-spacing="6"                                                                                                                       
+          fill="white">PRAKHAR DUBEY</text>
+                                                                                                                                                   
+    <!-- Role badge box -->
+    <rect x="295" y="135" width="310" height="36" rx="4" fill="#a78bfa" opacity="0.85"/>                                                           
+    <text x="450" y="159"                                                                                                                          
+          text-anchor="middle"                                                                                                                     
+          font-family="monospace"                                                                                                                  
+          font-weight="700"                                                                                                                        
+          font-size="15"    
+          letter-spacing="3"
+          fill="white">REACT NATIVE DEVELOPER</text>                                                                                               
+   
+    <!-- Bottom line -->                                                                                                                           
+    <line x1="60" y1="215" x2="840" y2="215" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+                                                                                                                                                   
+    <!-- Tagline -->                                                                                                                               
+    <text x="450" y="245"                                                                                                                          
+          text-anchor="middle"                                                                                                                     
+          font-family="monospace"
+          font-size="13"
+          fill="rgba(255,255,255,0.55)"
+          letter-spacing="1">📱 Building for millions · 60fps everything · India 🇮🇳</text>                                                         
+                                                                                                                                                   
+    <!-- Twinkling stars -->                                                                                                                       
+    <circle cx="40"  cy="30" r="1.5" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="2s"                     
+  repeatCount="indefinite"/></circle>                                                                                                              
+    <circle cx="860" cy="45" r="1.5" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.7s" 
+  repeatCount="indefinite"/></circle>                                                                                                              
+    <circle cx="120" cy="55" r="1"   fill="#a78bfa" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.4s" 
+  repeatCount="indefinite"/></circle>                                                                                                              
+    <circle cx="780" cy="25" r="1"   fill="#a78bfa" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="3s" 
+  repeatCount="indefinite"/></circle>                                                                                                              
+    <circle cx="500" cy="20" r="1.2" fill="white"   opacity="0.5"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="1.5s" 
+  repeatCount="indefinite"/></circle>                                                                                                              
+                            
+  </svg>                     
