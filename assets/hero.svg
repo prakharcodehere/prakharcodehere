@@ -1,0 +1,35 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Prakhar Dubey - React Native Developer</title>
+  <desc id="desc">Professional dark engineering profile banner for Prakhar Dubey, React Native Developer and SDE-1.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="360" rx="28"/></clipPath>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <g clip-path="url(#clip)" opacity="0.16">
+    <path d="M0 72H1200M0 132H1200M0 192H1200M0 252H1200M0 312H1200" stroke="#94A3B8"/>
+    <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360" stroke="#94A3B8"/>
+  </g>
+  <rect x="56" y="54" width="1088" height="252" rx="22" fill="#020617" stroke="#1E293B"/>
+  <text x="86" y="112" fill="#64748B" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="15">~/mobile/runtime/profile.ts</text>
+  <text x="86" y="176" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui" font-size="54" font-weight="900">Prakhar Dubey</text>
+  <text x="88" y="220" fill="#A78BFA" font-family="Inter, ui-sans-serif, system-ui" font-size="22" font-weight="800">React Native Developer / SDE-1</text>
+  <text x="88" y="258" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui" font-size="18">Mobile performance | Native bridges | Reanimated | TurboModules | JSI | Open source</text>
+  <rect x="820" y="96" width="270" height="150" rx="16" fill="#0F172A" stroke="#334155"/>
+  <text x="844" y="130" fill="#94A3B8" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="13">runtime.status</text>
+  <text x="844" y="166" fill="#22C55E" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="18" font-weight="800">60fps_ready: true</text>
+  <text x="844" y="198" fill="#38BDF8" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="16">bridge: JSI</text>
+  <text x="844" y="226" fill="#A78BFA" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="16">arch: new</text>
+  <rect y="318" width="1200" height="3" fill="url(#scan)">
+    <animate attributeName="x" values="-1200;1200" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

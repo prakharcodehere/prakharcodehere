@@ -1,0 +1,17 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Package terminal</title>
+  <desc id="desc">Professional terminal panel showing npm install and package output for react-native-permit.</desc>
+  <rect width="1200" height="430" rx="28" fill="#020617"/>
+  <rect x="56" y="56" width="1088" height="318" rx="18" fill="#0F172A" stroke="#334155"/>
+  <circle cx="88" cy="88" r="7" fill="#EF4444"/>
+  <circle cx="112" cy="88" r="7" fill="#F59E0B"/>
+  <circle cx="136" cy="88" r="7" fill="#22C55E"/>
+  <text x="84" y="138" fill="#64748B" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="14">~/open-source/react-native-permit</text>
+  <text x="84" y="184" fill="#A78BFA" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="22" font-weight="800">$ npm i react-native-permit</text>
+  <text x="84" y="230" fill="#E2E8F0" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="18">added permission hooks, retries, onboarding, built-in UI</text>
+  <text x="84" y="266" fill="#E2E8F0" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="18">exports: Permit, usePermit, PermitDialog, PermitStepper</text>
+  <text x="84" y="322" fill="#22C55E" font-family="SFMono-Regular, ui-monospace, Menlo, monospace" font-size="20" font-weight="800">ready: product permission flows without rewriting glue code</text>
+  <rect x="424" y="164" width="12" height="26" fill="#E2E8F0">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

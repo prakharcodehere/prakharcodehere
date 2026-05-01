@@ -1,0 +1,59 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mobile performance dashboard</title>
+  <desc id="desc">Dark professional dashboard showing mobile performance signals including FPS, frame budget, startup, memory, bundle size, and crash-free sessions.</desc>
+  <rect width="1200" height="520" rx="28" fill="#020617"/>
+  <defs>
+    <linearGradient id="ok" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="warn" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <text x="56" y="66" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui" font-size="32" font-weight="900">Mobile Performance Dashboard</text>
+  <text x="56" y="100" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui" font-size="17">The signals I care about before calling an app smooth.</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui">
+    <rect x="56" y="142" width="250" height="138" rx="18" fill="#0F172A" stroke="#334155"/>
+    <text x="84" y="178" fill="#94A3B8" font-size="14" font-weight="800">FPS</text>
+    <text x="84" y="230" fill="#F8FAFC" font-size="48" font-weight="900">60</text>
+    <rect x="84" y="250" width="174" height="8" rx="4" fill="#1E293B"/>
+    <rect x="84" y="250" width="154" height="8" rx="4" fill="url(#ok)">
+      <animate attributeName="width" values="146;166;154;160;146" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="336" y="142" width="250" height="138" rx="18" fill="#0F172A" stroke="#334155"/>
+    <text x="364" y="178" fill="#94A3B8" font-size="14" font-weight="800">FRAME BUDGET</text>
+    <text x="364" y="230" fill="#F8FAFC" font-size="42" font-weight="900">16.67ms</text>
+    <rect x="364" y="250" width="174" height="8" rx="4" fill="#1E293B"/>
+    <rect x="364" y="250" width="122" height="8" rx="4" fill="url(#warn)">
+      <animate attributeName="width" values="110;132;118;126;110" dur="4.6s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="616" y="142" width="250" height="138" rx="18" fill="#0F172A" stroke="#334155"/>
+    <text x="644" y="178" fill="#94A3B8" font-size="14" font-weight="800">STARTUP</text>
+    <text x="644" y="230" fill="#F8FAFC" font-size="42" font-weight="900">&lt; 1.2s</text>
+    <rect x="644" y="250" width="174" height="8" rx="4" fill="#1E293B"/>
+    <rect x="644" y="250" width="132" height="8" rx="4" fill="#38BDF8">
+      <animate attributeName="width" values="124;144;132;138;124" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="896" y="142" width="248" height="138" rx="18" fill="#0F172A" stroke="#334155"/>
+    <text x="924" y="178" fill="#94A3B8" font-size="14" font-weight="800">CRASH-FREE</text>
+    <text x="924" y="230" fill="#F8FAFC" font-size="42" font-weight="900">99.9%</text>
+    <rect x="924" y="250" width="172" height="8" rx="4" fill="#1E293B"/>
+    <rect x="924" y="250" width="160" height="8" rx="4" fill="#22C55E">
+      <animate attributeName="width" values="152;166;160;164;152" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="56" y="320" width="1088" height="118" rx="18" fill="#0F172A" stroke="#334155"/>
+    <text x="84" y="358" fill="#F8FAFC" font-size="17" font-weight="900">Optimization checklist</text>
+    <text x="84" y="394" fill="#CBD5E1" font-size="14">profile render work</text>
+    <text x="286" y="394" fill="#CBD5E1" font-size="14">move animations native-side</text>
+    <text x="544" y="394" fill="#CBD5E1" font-size="14">watch bundle cost</text>
+    <text x="752" y="394" fill="#CBD5E1" font-size="14">measure startup</text>
+    <text x="940" y="394" fill="#CBD5E1" font-size="14">ship safely</text>
+  </g>
+</svg>
